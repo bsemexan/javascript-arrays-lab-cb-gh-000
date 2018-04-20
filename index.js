@@ -7,3 +7,5 @@ var destructivelyPrependKitten = (name) => (kittens.unshift(name))
 var destructivelyRemoveLastKitten = () => (kittens.pop())
 
 var destructivelyRemoveFirstKitten = () => (kittens.shift())
+
+var appendKitten = (name) => ([kittens, ...name])
