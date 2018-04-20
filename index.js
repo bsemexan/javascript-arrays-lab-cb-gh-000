@@ -12,4 +12,6 @@ var appendKitten = (name) => ([...kittens, name])
 
 var prependKitten = (name) => ([name, ...kittens])
 
-var removeLastKitten = () => (kittens.slice(1))
+var removeLastKitten = () =>
+
+var removeFirstKitten = () => (kittens.slice(1))
